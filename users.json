@@ -1,0 +1,62 @@
+[
+  {
+    "username":"peter",
+    "password":"peter",
+    "enabled":true,
+    "firstName":"Peter",
+    "lastName":"Smith",
+    "email":"ddd@gmail.com",
+    "birthday":"1973-03-11",
+    "userRoles": [
+                    {
+                        "username":"peter",
+                        "role": "REGISTERED_USER"
+                    }
+                  ]
+  },
+  {
+    "username":"tom",
+    "password":"tom",
+    "enabled":true,
+    "firstName":"Tom",
+    "lastName":"Vasilevski",
+    "email":"ccc@gmail.com",
+    "birthday":"1967-01-22",
+    "userRoles": [
+                    {
+                        "username":"tom",
+                        "role": "BOOKING_MANAGER"
+                    }
+                  ]
+  },
+  {
+    "username":"jason",
+    "password":"jason",
+    "enabled":true,
+    "firstName":"Jason",
+    "lastName":"Stone",
+    "email":"bbb@gmail.com",
+    "birthday":"1982-11-29",
+    "userRoles": [
+                    {
+                        "username":"jason",
+                        "role": "REGISTERED_USER"
+                    }
+                  ]
+  },
+  {
+    "username":"vik",
+    "password":"vik",
+    "enabled":true,
+    "firstName":"Vik",
+    "lastName":"Forbid",
+    "email":"aaa@gmail.com",
+    "birthday":"1988-05-20",
+    "userRoles": [
+                    {
+                        "username":"vik",
+                        "role": "REGISTERED_USER"
+                    }
+                  ]
+  }
+]

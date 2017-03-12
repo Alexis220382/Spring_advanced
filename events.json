@@ -1,0 +1,20 @@
+[
+  {
+    "id":"0",
+    "name":"Show",
+    "basePrice":"6.32",
+    "rating":"HIGH"
+  },
+  {
+    "id":"1",
+    "name":"Party",
+    "basePrice":"2.67",
+    "rating":"LOW"
+  },
+  {
+    "id":"2",
+    "name":"Movie",
+    "basePrice":"1.54",
+    "rating":"LOW"
+  }
+]
