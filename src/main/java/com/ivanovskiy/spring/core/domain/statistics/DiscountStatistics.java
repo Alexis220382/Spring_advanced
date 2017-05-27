@@ -1,0 +1,44 @@
+package com.ivanovskiy.spring.core.domain.statistics;
+
+import com.ivanovskiy.spring.core.domain.DomainObject;
+
+public class DiscountStatistics extends DomainObject {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5646129808635247852L;
+	
+	private Long birthdayDiscount;
+	private Long luckyDiscount;
+	
+	public DiscountStatistics() {
+		this.birthdayDiscount = 0l;
+		this.luckyDiscount = 0l;
+	}
+	
+	public Long getBirthdayDiscount() {
+		return birthdayDiscount;
+	}
+	
+	public void setBirthdayDiscount(Long birthdayDiscount) {
+		this.birthdayDiscount = birthdayDiscount;
+	}
+	
+	public Long getLuckyDiscount() {
+		return luckyDiscount;
+	}
+	
+	public void setLuckyDiscount(Long luckyDiscount) {
+		this.luckyDiscount = luckyDiscount;
+	}
+	
+	public void increaseNumberOfLuckyDiscount() {
+		++luckyDiscount;
+	}
+	
+	public void increaseNumberOfBirthdayDiscount() {
+		++birthdayDiscount;
+	}
+	
+}

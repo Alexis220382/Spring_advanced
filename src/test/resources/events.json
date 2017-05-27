@@ -1,10 +1,10 @@
 [  
    {  
-      "name":"epam",
+      "name":"event",
       "basePrice":10000
    },
    {  
-      "name":"Oleg's company",
+      "name":"Alex's company",
       "basePrice":10000000
    }
 ]
